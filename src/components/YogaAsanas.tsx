@@ -17,11 +17,11 @@ export default function YogaAsanas() {
               delay={index * 80}
               className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 h-full flex flex-col"
             >
-              <div className="relative h-64 overflow-hidden flex-shrink-0">
+              <div className="relative h-64 overflow-hidden flex-shrink-0 bg-white">
                 <img
                   src={asana.image}
                   alt={asana.name}
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  className="w-full h-full object-contain transition-transform duration-500 hover:scale-[1.02] p-4"
                 />
                 <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-orange-500 to-orange-600 rounded-full flex items-center justify-center shadow-lg">
                   <span className="text-white font-bold text-xl">ॐ</span>

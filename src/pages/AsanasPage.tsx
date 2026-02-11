@@ -102,11 +102,11 @@ export default function AsanasPage() {
                 <RevealOnScroll key={`${asana.title}-${index}`} delay={index * 40}>
                   <article className="bg-white rounded-2xl shadow-md overflow-hidden border border-gray-100">
                     {asana.imageSrc && (
-                      <div className="relative">
+                      <div className="relative bg-white flex items-center justify-center">
                         <img
                           src={asana.imageSrc}
                           alt={asana.title}
-                          className="w-full max-h-[520px] object-cover"
+                          className="w-full max-h-[520px] object-contain p-4"
                           loading="lazy"
                         />
                       </div>
